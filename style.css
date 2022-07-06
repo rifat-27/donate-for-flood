@@ -1,0 +1,283 @@
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  align-items: center;
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#banner-para {
+  padding: 0px 150px 0px 150px;
+}
+
+#header1 {
+  margin: 10px 0% 0% 0%;
+  padding-bottom: 0;
+}
+
+#header2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.banner {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  height: 42em;
+  width: 100%;
+  color: aliceblue;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.913)),
+    url(images/donation13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.banner-text {
+  justify-content: center;
+  text-align: center;
+  padding: 10% 20% 2% 20%;
+}
+
+.button {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: whitesmoke;
+  width: 12%;
+  height: 55px;
+  border-radius: 7px;
+  border-style: none;
+  background-color: rgba(255, 84, 84, 0.995);
+}
+
+.donation {
+  margin-top: 100px;
+}
+.donation-text {
+  margin: 30px 27% 50px 27%;
+  text-align: center;
+}
+
+#donation-text-header {
+  margin-bottom: 20;
+  padding: 0;
+}
+
+.donation-amount {
+  margin: 0px 21% 20px 21%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.tk {
+  background-color: rgba(246, 245, 245, 0.879);
+  height: 150px;
+  width: 150px;
+  margin: 0px 9px 9px 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.tk p {
+  color: rgba(121, 121, 121, 0.925);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#tk-colored {
+  border-style: solid;
+  border-color: rgba(255, 84, 84, 0.995);
+  background-color: rgba(250, 137, 137, 0.285);
+}
+
+#tk-colored p {
+  color: rgba(255, 84, 84, 0.995);
+}
+
+.donation-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+#input-amount {
+  color: rgba(147, 146, 146, 0.573);
+  margin: 25px 22% 25px 22%;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgba(147, 146, 146, 0.573);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.donation-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.plan {
+  margin-top: 100px;
+}
+.plan-text {
+  margin: 10px 25% 20px 25%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.plan-cards {
+  margin: 10px 7% 20px 7%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 330px;
+  width: 30%;
+  margin: 25px 1% 40px 1%;
+}
+
+.card p {
+  padding: 10px;
+}
+
+#card1 {
+  background-color: rgb(216, 248, 238);
+}
+
+#card2 {
+  background-color: rgb(250, 252, 204);
+}
+
+#card3 {
+  background-color: rgb(236, 209, 250);
+}
+.icon {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  max-height: 60px;
+  max-width: 60px;
+  height: auto;
+  width: auto;
+}
+
+.container {
+  width: 400px;
+  height: 600px;
+  clear: both;
+  text-align: center;
+  padding: 30px 5% 30px 5%;
+  margin: 100px 20px 100px 480px;
+  background-color: rgba(253, 243, 236, 0.995);
+}
+
+.container input {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  padding: 0 10px 5px 2px;
+  width: 90%;
+  height: 30px;
+  clear: both;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: rgba(168, 168, 168, 0.995);
+}
+
+.container button {
+  width: 150px;
+  height: 40px;
+}
+
+.update {
+  margin: 130px 23% 130px 23%;
+  text-align: center;
+}
+
+.update-text {
+  padding: 0px 15% 0px 15%;
+}
+
+.update-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  width: 850px;
+  height: 190px;
+  background-color: rgba(249, 243, 196, 0.938);
+}
+
+#email {
+  padding-left: 20px;
+  height: 22%;
+  width: 40%;
+  border-radius: 7px 0 0 7px;
+  border-style: none;
+  color: rgba(173, 172, 172, 0.779);
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.update-box .button {
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 44px;
+  width: 150px;
+  border-style: none;
+  border-radius: 0 7px 7px 0;
+}
+
+footer {
+  display: flex;
+  height: 180px;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 2, 26);
+}
+
+footer p {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: 'Lobster', cursive;
+  color: darksalmon;
+}
+
+footer span {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: aliceblue;
+}
